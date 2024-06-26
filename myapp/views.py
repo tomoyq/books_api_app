@@ -60,7 +60,7 @@ class DetailView(View):
 
         items = get_api_data(params)
         items = items[0]
-        item = items['item']
+        item = items['Item']
         title = item['title']
         image = item['largeImageUrl']
         author = item['author']
